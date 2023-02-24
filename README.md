@@ -1,37 +1,16 @@
-# Portfolio-Website
-Hi, this is a creative professional multi page Portfolio Website Template built with React. It is a modern react website with React Router to switch between differnet pages.
+#Resume
 
-# Installation and Setup Instructions
-  Step 1 : Clone this repository with the Command -
-  
-            git clone https://github.com/killer-abhi/Portfolio.git
-  
-  Step 2 : cd Portfolio
-  
-  Step 3 : npm install
-  
-  Step 4 : npm start
+![image](https://user-images.githubusercontent.com/79292977/221163132-40315054-e165-4885-a0cc-759c1ec99ff9.png)
 
-# Usage Instructions
-  
-  Open the project folder and Navigate to /src/Data/ 
-  
-  Replace the data present in the files with your data.
-  
-  Replace photo with your picture
-  
-  You will find all the components used and you can edit your information accordingly.
 
-And after that, in the project directory, you can run: npm start
+![image](https://user-images.githubusercontent.com/79292977/221163149-c5004879-dcc0-4d98-ba8a-55ae19b49bec.png)
 
-Runs the app in the development mode.
 
-Open http://localhost:3000 to view it in the browser. The page will reload if you make edits.
+![image](https://user-images.githubusercontent.com/79292977/221163161-0bde7e77-0a3d-42b6-a98b-63fbe68fa689.png)
 
-# Show your support
 
-Feel free to Fork this repo and use.
+![image](https://user-images.githubusercontent.com/79292977/221163180-2c2a0d3d-12e8-4778-b6e2-3a28a0a25308.png)
 
-New customizations and improvements are welcomed.
 
-Give a ⭐ if you like this website!
+![image](https://user-images.githubusercontent.com/79292977/221163192-6bf49899-0fb6-4c19-8a79-d64c8738f233.png)
+
