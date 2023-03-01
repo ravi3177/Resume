@@ -1,18 +1,20 @@
-.contactMe{
+.contactMe {
     margin: 0rem auto;
     /* background-color: aqua; */
     width: 90%;
     display: flex;
     justify-content: space-around;
 }
-.avatar{
+
+.avatar {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     /* background-color: aquamarine; */
     /* width: 50%; */
 }
-.avatar img{
+
+.avatar img {
     margin-top: 2rem;
     border: 5px solid;
     border-radius: 50%;
@@ -21,39 +23,97 @@
     object-fit: contain;
     /* animation: renderFromLeft 1s ease forwards; */
 }
-.contactCard{
+
+.contactCard {
     margin-top: 4rem;
     text-align: center;
     width: 40%;
     /* animation: renderFromRight 1s ease forwards; */
 }
-.contactCard h1{
+
+.contactCard h1 {
     font-size: 3rem;
 }
-.contactCard div{
+
+.contactCard div {
     margin-top: 1rem;
     font-weight: 500;
     font-size: 1.5rem;
 }
-.contactLinks{
+
+.contactLinks {
     display: flex;
     justify-content: center;
 }
-.links{
+
+.links {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 20rem;
+    margin-bottom: 1.2rem;
 }
-.resumeBtn{
-    margin-top: 2rem;
+
+.resumeBtn {
+    margin: 0.4rem, auto;
+    /* display: flex; */
+    color: #f0530a;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* width: 40%; */
+    /* height: 22rem; */
+    /* animation: renderFromLeft 1s ease forwards; */
+
+}
+
+.personal-info {
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.homeContent h1 {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.homeContent h2 {
+    font-weight: 600;
+    font-size: 2.3rem;
+}
+
+#name {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.homeContent h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.autoText {
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 @media (max-width:768px) {
-    .contactMe{
+    .contactMe {
         flex-direction: column;
     }
-    .avatar{
+
+    .avatar {
         display: flex;
         align-items: center;
         justify-content: flex-start;
@@ -61,32 +121,37 @@
         /* width: 50%; */
         margin: 2rem auto;
     }
-    .avatar img{
+
+    .avatar img {
         height: 15rem;
         width: 15rem;
     }
-    .contactCard{
+
+    .contactCard {
         margin: 0rem auto;
         width: 90%;
     }
 }
 
 @keyframes renderFromLeft {
-    0%{
+    0% {
         opacity: 0;
         transform: translateX(-100%);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0);
     }
 }
+
 @keyframes renderFromRight {
-    0%{
+    0% {
         opacity: 0;
         transform: translateX(100%);
     }
-    100%{
+
+    100% {
         opacity: 1;
         transform: translateX(0);
     }

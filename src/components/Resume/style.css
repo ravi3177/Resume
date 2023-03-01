@@ -181,14 +181,15 @@
     text-align: center !important;
     width: 100px !important;
     flex: center !important;
-    color: white;
+    color: rgb(229, 200, 13);
+    ;
 
 }
 
 .download-button:hover {
     cursor: pointer;
     border-radius: 0.5rem;
-    background-color: purple;
+    background-color: rgb(128, 124, 0);
     color: white;
     /* border: 2px solid purple; */
     filter: brightness(110%);

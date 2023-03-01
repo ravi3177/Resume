@@ -1,8 +1,8 @@
 import { configureStore, createSlice } from "@reduxjs/toolkit";
 
 const initialThemeState = {
-    mode: 'light',
-    uiColor: 'purple',
+    mode: 'dark',
+    uiColor: 'crimson',
     theme: {
         color: 'black',
         backgroundColor: "rgb(237, 249, 254)",
@@ -18,16 +18,17 @@ const themeSlice = createSlice({
             state.theme.color = action.payload;
         },
         toggleMode(state) {
-            if (state.mode === 'light') {
-                state.mode = 'dark';
-                state.theme.color = 'cyan';
-                state.theme.backgroundColor = 'black';
-                state.nonThemeColor = 'white';
-            }
-            else {
+            if (state.mode === 'dark') {
+
                 state.mode = 'light';
                 state.theme = initialThemeState.theme;
                 state.nonThemeColor = 'black';
+            }
+            else {
+                state.mode = 'dark';
+                state.theme.color = "#E6DDC4";
+                state.theme.backgroundColor = 'black';
+                state.nonThemeColor = 'white';
             }
         }
     }
